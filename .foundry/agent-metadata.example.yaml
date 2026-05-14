@@ -1,0 +1,11 @@
+defaultEnvironment: dev
+environments:
+  dev:
+    projectEndpoint: "https://mkurup-test-resource.services.ai.azure.com/api/projects/mkurup-test"
+    agentName: network-isolation-expert
+    definitionFile: ../agent.yml
+    toolboxes:
+      workiq:
+        name: meera-workiq-toolbox
+        version: "1"
+        mcpEndpoint: "https://mkurup-test-resource.services.ai.azure.com/api/projects/mkurup-test/toolboxes/meera-workiq-toolbox/versions/1/mcp?api-version=v1"
